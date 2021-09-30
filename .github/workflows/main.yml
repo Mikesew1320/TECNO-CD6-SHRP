@@ -63,7 +63,7 @@ jobs:
               expect \"yes/no\"
               send "yes\r"
               expect \"Password\"       
-              send "${{ secrets.SFPASS }}\r"
+              send "${{ secrets.112333333 }}\r"
               expect \"sftp> \"
               send "cd cd /home/frs/project/shrp/${CODENAME}/\r"
               set timeout -1
